@@ -9,7 +9,10 @@ HelloC:
 HelloA:
     folder: A
     cmakedir: src
+HelloD:
+    folder: D
+    cmakedir: src
 
-root: HelloA
+root: HelloA, HelloD
 generator: cmake
 name: MyProject
